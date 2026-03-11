@@ -19,7 +19,6 @@ class Rishii:
     degree      = "B.Tech — Environmental Engineering | SGPA: 8.90 (Sem 1)"
     interests   = ["AI/ML", "Computer Vision", "Geospatial Analysis", "Entrepreneurship"]
     experience  = "AI & ML Intern @ Artha Research & Intelligence Lab"
-    achievement = "Finalist @ CaseQuest '26 — AI-First Strategy Case Competition"
     fun_fact    = "I build gesture-controlled drones. Because why not."
 ```
 

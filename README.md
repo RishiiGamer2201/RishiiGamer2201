@@ -11,9 +11,8 @@
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00D9FF)](https://rishiigamer2201.github.io/portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishiikumarsingh/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishii-kumar-singh)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishiiGamer2201)
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/sherpa-dev/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishiikumarsingh2201@gmail.com)
 
 </div>
@@ -31,9 +30,9 @@ class Rishii:
 
     focus       = ["Local LLMs", "Computer Vision", "Geospatial ML"]
     currently   = "Building AI tools that run fully offline"
-    internship  = "AI & ML @ Artha Research & Intelligence Lab"
+    past        = "AI & ML Intern @ Artha Research & Intelligence Lab"
 
-    open_to     = "Summer 2025 AI/ML Internships"
+    open_to     = "Summer 2026 AI/ML Internships"
     fun_fact    = "I built a gesture-controlled drone. Because keyboards are overrated."
 ```
 
@@ -54,7 +53,8 @@ Reads your last terminal error and explains what went wrong + the exact fix. Run
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![llama-cpp](https://img.shields.io/badge/llama--cpp--python-8B0000?style=flat-square)
-![PyPI](https://img.shields.io/pypi/v/sherpa-dev?style=flat-square&color=3775A9)
+[![PyPI](https://img.shields.io/pypi/v/sherpa-dev?style=flat-square&color=3775A9)](https://pypi.org/project/sherpa-dev/)
+[![Stars](https://img.shields.io/github/stars/RishiiGamer2201/sherpa?style=flat-square&color=7B2FBE)](https://github.com/RishiiGamer2201/sherpa)
 
 </td>
 <td width="50%">
@@ -63,6 +63,8 @@ Reads your last terminal error and explains what went wrong + the exact fix. Run
 **Hands-free desktop control via voice + gesture.**
 
 MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketIO dashboard for real-time gesture monitoring. Full desktop control without touching a keyboard.
+
+[📺 Video Demo](https://www.youtube.com/watch?v=thcPBI7ImGQ) · [💻 GitHub](https://github.com/RishiiGamer2201/gesture-desktop-control)
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
@@ -77,6 +79,8 @@ MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketI
 **Real-time hand gesture control for autonomous drones.**
 
 10+ static gestures, dynamic motions, two-hand coordination at 25–30 FPS. AR overlays and telemetry display. CNN + MediaPipe for hand tracking.
+
+[📺 Video Demo](https://www.youtube.com/watch?v=5L6JxpySPoc) · [💻 GitHub](https://github.com/RishiiGamer2201/gesture_drone_project)
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=opencv)
@@ -102,7 +106,7 @@ MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketI
 ### 🏥 Geospatial Healthcare Accessibility
 **Mapping "healthcare desert" regions in Himachal Pradesh.**
 
-Travel-time mapping to health facilities via road-network analysis using Python + QGIS. Contributed to data-driven policy planning at Artha Research Lab.
+Travel-time mapping to health facilities via road-network analysis using Python + QGIS. Data-driven policy planning for underserved regions. Built during internship at Artha Research Lab.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis)
@@ -115,6 +119,8 @@ Travel-time mapping to health facilities via road-network analysis using Python 
 **Models teams as systems and picks the right problem statement.**
 
 Squad-architecture synergy scoring, interactive dashboards, media agents that generate strategy text and poster-ready visual briefs. Built with OnDemand AI + Gemini.
+
+[🌐 Live Demo](https://rishiigamer2201.github.io/Hack-PS/)
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google)
@@ -187,7 +193,7 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 |---|---|
 | 🥈 | **Finalist** — CaseQuest '26 · AI-First Strategy Case Competition · DTU Consulting Group × IEEE DTU (Invictus '26) |
 | ⚡ | **Qualified for Finale** — Brainwave 2.0 · OnDemand AI Track |
-| 📐 | **IOQM** — Indian Olympiad Qualifier in Mathematics · Top 10% nationwide |
+| 📐 | **[IOQM](https://drive.google.com/file/d/1-z6ZqXkMcsqOYBGKiAw7e6T3K73ad3Sx/view)** — Indian Olympiad Qualifier in Mathematics · Top 10% nationwide |
 | 🎖️ | **NDA Qualified — 3 consecutive times** (NDA 2 2024 · NDA 1 2025 · NDA 2 2025) via UPSC |
 | 🌐 | **India-Russia Space Dialogue 2023** — Delegate · Russian Centre of Science and Culture, New Delhi |
 
@@ -199,13 +205,14 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 <div align="center">
 
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Convolutional_Neural_Networks-FF6F00?style=flat-square&logo=coursera&logoColor=white)
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-ML_Specialization-FF6F00?style=flat-square&logo=coursera&logoColor=white)
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Advanced_Learning_Algorithms-FF6F00?style=flat-square&logo=coursera&logoColor=white)
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Unsupervised_Learning_%26_RL-FF6F00?style=flat-square&logo=coursera&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-Intro_to_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-Intermediate_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
-![IIT Madras](https://img.shields.io/badge/IIT_Madras-Data_Science_%26_AI_(8_Weeks)-1A237E?style=flat-square)
+[![CNN](https://img.shields.io/badge/Coursera-Convolutional_Neural_Networks-FF6F00?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/X0F8Y4ZKEZI5)
+[![ML Spec](https://img.shields.io/badge/Coursera-ML_Specialization-FF6F00?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/8JFNCYJQ96M7)
+[![Advanced](https://img.shields.io/badge/Coursera-Advanced_Learning_Algorithms-FF6F00?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/FSY21RPN91MZ)
+[![Unsupervised](https://img.shields.io/badge/Coursera-Unsupervised_Learning_%26_RL-FF6F00?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/25DC9VR67Q0V)
+[![Supervised](https://img.shields.io/badge/Coursera-Supervised_ML-FF6F00?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/BWMTN6C3R8MC)
+[![Kaggle Intro](https://img.shields.io/badge/Kaggle-Intro_to_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/learn/certification/rishiikumarsingh/intro-to-machine-learning)
+[![Kaggle Inter](https://img.shields.io/badge/Kaggle-Intermediate_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/learn/certification/rishiikumarsingh/intermediate-machine-learning)
+[![IIT Madras](https://img.shields.io/badge/IIT_Madras-Data_Science_%26_AI_(8_Weeks)-1A237E?style=flat-square)](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)
 
 </div>
 
@@ -216,8 +223,8 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 <div align="center">
 
 [![Sherpa](https://img.shields.io/badge/sherpa--dev-PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/sherpa-dev/)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/sherpa-dev?style=for-the-badge&color=00D9FF&label=Monthly%20Downloads)](https://pypi.org/project/sherpa-dev/)
 [![GitHub Stars](https://img.shields.io/github/stars/RishiiGamer2201/sherpa?style=for-the-badge&color=7B2FBE&logo=github)](https://github.com/RishiiGamer2201/sherpa)
+[![Latest Version](https://img.shields.io/pypi/v/sherpa-dev?style=for-the-badge&color=00D9FF&label=Latest)](https://pypi.org/project/sherpa-dev/)
 
 ```bash
 # Explain your last terminal error. Locally. No API key.

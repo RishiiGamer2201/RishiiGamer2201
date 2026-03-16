@@ -94,6 +94,8 @@ MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketI
 
 100+ live sources, AI analyst chatbot, auto-refresh. Built with React + Express, GDELT dataset, Anthropic API. Full intelligence-grade news aggregation and analysis.
 
+[🌐 Live Demo](https://sigint-worldwatch.vercel.app/)
+
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Anthropic](https://img.shields.io/badge/Anthropic_API-000000?style=flat-square)
 ![GDELT](https://img.shields.io/badge/GDELT-2C5F2E?style=flat-square)

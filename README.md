@@ -1,246 +1,239 @@
 <div align="center">
 
-# 🏔️ Sherpa
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7B2FBE&height=200&section=header&text=Rishii%20Kumar%20Singh&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Builder&descAlignY=58&descSize=18&animation=fadeIn" />
 
-**Explains your terminal errors in plain English. Fully local, no API key, no internet after setup.**
+</div>
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/sherpa-dev.svg)](https://pypi.org/project/sherpa-dev/)
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Building+AI+that+runs+on+your+machine+%F0%9F%A4%96;Computer+Vision+%7C+Local+LLMs+%7C+Geospatial+ML;DTU+%E2%80%94+Environmental+Engg+%7C+SGPA+8.90;pip+install+sherpa-dev+%26%26+python+-m+sherpa)](https://git.io/typing-svg)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00D9FF)](https://rishiigamer2201.github.io/portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishii-kumar-singh)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishiiGamer2201)
+[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/sherpa-dev/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishiikumarsingh2201@gmail.com)
 
 </div>
 
 ---
 
-![Sherpa Demo](assets/demo.gif)
+## `> whoami`
 
-```
-$ pip install rish
-ERROR: Could not find a version that satisfies the requirement rish
+```python
+class Rishii:
+    university  = "Delhi Technological University (DTU)"
+    degree      = "B.Tech — Environmental Engineering"
+    sgpa        = 8.90  # Semester 1
+    location    = "New Delhi, India 🇮🇳"
 
-$ python -m sherpa
+    focus       = ["Local LLMs", "Computer Vision", "Geospatial ML"]
+    currently   = "Building AI tools that run fully offline"
+    internship  = "AI & ML @ Artha Research & Intelligence Lab"
 
-sherpa is thinking...
-
-Command: pip install rish
-
-╭─ Why it failed ──────────────────────────────────────────────╮
-│ The package 'rish' does not exist on PyPI. Pip searched all  │
-│ available distributions and found no match.                  │
-╰──────────────────────────────────────────────────────────────╯
-╭─ Fix ────────────────────────────────────────────────────────╮
-│ Check the package name spelling — did you mean 'rich'?       │
-│ pip install rich                                             │
-╰──────────────────────────────────────────────────────────────╯
+    open_to     = "Summer 2025 AI/ML Internships"
+    fun_fact    = "I built a gesture-controlled drone. Because keyboards are overrated."
 ```
 
 ---
 
-## Install
+## 🚀 Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏔️ [Sherpa](https://github.com/RishiiGamer2201/sherpa) — *Published on PyPI*
+**Local AI terminal error explainer. No API key. No internet after setup.**
+
+Reads your last terminal error and explains what went wrong + the exact fix. Runs 5 different LLMs (1.6–4GB) entirely on your machine. Works on PowerShell, bash, zsh, fish.
+
+`pip install sherpa-dev` → `python -m sherpa`
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![llama-cpp](https://img.shields.io/badge/llama--cpp--python-8B0000?style=flat-square)
+![PyPI](https://img.shields.io/pypi/v/sherpa-dev?style=flat-square&color=3775A9)
+
+</td>
+<td width="50%">
+
+### 🖥️ [Jarvis](https://github.com/RishiiGamer2201/gesture-desktop-control) — *99.54% accuracy*
+**Hands-free desktop control via voice + gesture.**
+
+MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketIO dashboard for real-time gesture monitoring. Full desktop control without touching a keyboard.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🚁 [Gesture Drone](https://github.com/RishiiGamer2201/gesture_drone_project) — *92%+ accuracy*
+**Real-time hand gesture control for autonomous drones.**
+
+10+ static gestures, dynamic motions, two-hand coordination at 25–30 FPS. AR overlays and telemetry display. CNN + MediaPipe for hand tracking.
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=opencv)
+![CNN](https://img.shields.io/badge/CNN-7B2FBE?style=flat-square)
+
+</td>
+<td width="50%">
+
+### 🌍 [SIGINT // WORLDWATCH](https://github.com/RishiiGamer2201/sigint-worldwatch)
+**Real-time geopolitical intelligence dashboard.**
+
+100+ live sources, AI analyst chatbot, auto-refresh. Built with React + Express, GDELT dataset, Anthropic API. Full intelligence-grade news aggregation and analysis.
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Anthropic](https://img.shields.io/badge/Anthropic_API-000000?style=flat-square)
+![GDELT](https://img.shields.io/badge/GDELT-2C5F2E?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🏥 Geospatial Healthcare Accessibility
+**Mapping "healthcare desert" regions in Himachal Pradesh.**
+
+Travel-time mapping to health facilities via road-network analysis using Python + QGIS. Contributed to data-driven policy planning at Artha Research Lab.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis)
+![ML](https://img.shields.io/badge/Geospatial_ML-00D9FF?style=flat-square)
+
+</td>
+<td width="50%">
+
+### 🎯 [AI Copilot for Hackathons](https://github.com/RishiiGamer2201/Hack-PS)
+**Models teams as systems and picks the right problem statement.**
+
+Squad-architecture synergy scoring, interactive dashboards, media agents that generate strategy text and poster-ready visual briefs. Built with OnDemand AI + Gemini.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google)
+![OnDemand](https://img.shields.io/badge/OnDemand_AI-FF6B35?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00f?style=for-the-badge&logo=mysql&logoColor=white)
+
+**AI / ML & Computer Vision**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+**Local LLMs & Inference**
+
+![llama-cpp](https://img.shields.io/badge/llama--cpp--python-8B0000?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![GGUF](https://img.shields.io/badge/GGUF_Models-7B2FBE?style=for-the-badge)
+
+**Tools & Frameworks**
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Click](https://img.shields.io/badge/Click_CLI-00D9FF?style=for-the-badge)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=RishiiGamer2201&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00D9FF&icon_color=7B2FBE&text_color=FFFFFF" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RishiiGamer2201&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
+
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=RishiiGamer2201&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=00D9FF&fire=7B2FBE&currStreakLabel=00D9FF)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+| | |
+|---|---|
+| 🥈 | **Finalist** — CaseQuest '26 · AI-First Strategy Case Competition · DTU Consulting Group × IEEE DTU (Invictus '26) |
+| ⚡ | **Qualified for Finale** — Brainwave 2.0 · OnDemand AI Track |
+| 📐 | **IOQM** — Indian Olympiad Qualifier in Mathematics · Top 10% nationwide |
+| 🎖️ | **NDA Qualified — 3 consecutive times** (NDA 2 2024 · NDA 1 2025 · NDA 2 2025) via UPSC |
+| 🌐 | **India-Russia Space Dialogue 2023** — Delegate · Russian Centre of Science and Culture, New Delhi |
+
+</div>
+
+---
+
+## 🎓 Certifications
+
+<div align="center">
+
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Convolutional_Neural_Networks-FF6F00?style=flat-square&logo=coursera&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-ML_Specialization-FF6F00?style=flat-square&logo=coursera&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Advanced_Learning_Algorithms-FF6F00?style=flat-square&logo=coursera&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Unsupervised_Learning_%26_RL-FF6F00?style=flat-square&logo=coursera&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-Intro_to_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-Intermediate_ML-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+![IIT Madras](https://img.shields.io/badge/IIT_Madras-Data_Science_%26_AI_(8_Weeks)-1A237E?style=flat-square)
+
+</div>
+
+---
+
+## 📦 Open Source
+
+<div align="center">
+
+[![Sherpa](https://img.shields.io/badge/sherpa--dev-PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/sherpa-dev/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/sherpa-dev?style=for-the-badge&color=00D9FF&label=Monthly%20Downloads)](https://pypi.org/project/sherpa-dev/)
+[![GitHub Stars](https://img.shields.io/github/stars/RishiiGamer2201/sherpa?style=for-the-badge&color=7B2FBE&logo=github)](https://github.com/RishiiGamer2201/sherpa)
 
 ```bash
-pip install sherpa-dev
+# Explain your last terminal error. Locally. No API key.
+pip install sherpa-dev && python -m sherpa
 ```
 
-That's it. No compiler, no API key, no configuration. `pip install` only pulls in `click` and `rich` — two lightweight packages that install in seconds on any machine.
-
-## First Run
-
-```bash
-python -m sherpa
-```
-
-On first run, Sherpa does two things automatically:
-
-**Step 1 — Installs the AI engine**
-`llama-cpp-python` installs itself silently with pre-built wheels. No compiler or build tools needed on most machines.
-
-**Step 2 — Shows an interactive model picker**
-Choose a model based on your available RAM:
-
-```
-╭─────────────────────────────────────────────────────╮
-│ Choose a model based on your available RAM.         │
-│ The model downloads once and is reused every run.   │
-╰─────────────────────────────────────────────────────╯
-
-  [1]  CodeLlama 7B Instruct (Q4)
-       Size: ~4.0 GB   RAM: 8 GB+
-       Best quality — code errors, tracebacks, build failures
-
-  [2]  Mistral 7B Instruct (Q4)
-       Size: ~4.1 GB   RAM: 8 GB+
-       Great general errors, shell commands, config issues
-
-  [3]  Gemma 2B Instruct (Q4)
-       Size: ~1.6 GB   RAM: 4 GB+
-       Low RAM machines — fast, decent quality
-
-  [4]  Llama 3.2 3B Instruct (Q4)
-       Size: ~2.0 GB   RAM: 6 GB+
-       Good balance of speed and quality on mid-range machines
-
-  [5]  DeepSeek Coder 6.7B Instruct (Q4)
-       Size: ~3.8 GB   RAM: 8 GB+
-       Best for pure code debugging
-
-Enter model number [1-5]:
-```
-
-After the model downloads, every run is fully offline. No internet, no API key, no external server. Ever.
-
-> ⏳ **First explanation takes 30–60 seconds** while the model loads into RAM. Every run after that is faster as the OS caches the model.
-
----
-
-## Usage
-
-```bash
-# Explain last terminal error (default)
-python -m sherpa
-
-# Explain a specific line in a file
-python -m sherpa explain app.py:42
-
-# Ask a freeform question
-python -m sherpa ask why is my API returning 403 only in production
-
-# Show current config
-python -m sherpa cfg show
-
-# Switch to a different model
-python -m sherpa cfg set-model /path/to/custom-model.gguf
-```
-
-> **Windows tip:** If `sherpa` is not recognised as a command after install, always use `python -m sherpa`. This works identically on all platforms.
-
----
-
-## Why Sherpa?
-
-Every developer hits errors in their terminal every day. The usual workflow:
-
-1. Read the error → feel confused
-2. Copy the error → open browser → Google/ChatGPT → read results → come back
-
-That's a context switch. You leave your flow, lose your mental state, and waste 3–5 minutes on something that should take 5 seconds.
-
-**Sherpa eliminates that loop.** The explanation and fix come to you, right where the error happened.
-
-> 🔒 **Your code never leaves your machine.** Sherpa runs entirely locally using a quantized AI model. No data is sent anywhere. Ever.
-
-### Why not just use ChatGPT?
-
-| | Sherpa | ChatGPT / Copilot |
-|---|---|---|
-| Stays in terminal | ✅ | ❌ |
-| Works offline | ✅ | ❌ |
-| No API key | ✅ | ❌ |
-| Code never leaves machine | ✅ | ❌ |
-| Reads error automatically | ✅ | ❌ |
-| Free forever | ✅ | ❌ |
-
----
-
-## How It Works
-
-```
-python -m sherpa
-  │
-  ├─ setup.py     → installs llama-cpp-python automatically (first run only)
-  ├─ setup.py     → interactive model picker + download (first run only)
-  ├─ config.py    → loads ~/.sherpa/config.json
-  ├─ history.py   → reads last command + stderr from shell history
-  ├─ ai.py        → loads local GGUF model, runs inference
-  └─ display.py   → prints explanation + fix with rich styling
-```
-
-| Component | Library | Purpose |
-|---|---|---|
-| CLI | `click` | Command routing, auto help text |
-| Output | `rich` | Colors, panels, syntax highlighting, progress bars |
-| AI engine | `llama-cpp-python` | Runs `.gguf` models inline, no server needed |
-
----
-
-## Supported Models
-
-Sherpa lets you pick your model on first run. You can switch anytime with `python -m sherpa cfg set-model`.
-
-| # | Model | Size | RAM | Best for |
-|---|---|---|---|---|
-| 1 | CodeLlama 7B Instruct Q4 | ~4.0 GB | 8 GB+ | Code errors, tracebacks, build failures |
-| 2 | Mistral 7B Instruct Q4 | ~4.1 GB | 8 GB+ | General errors, shell commands, config |
-| 3 | Gemma 2B Instruct Q4 | ~1.6 GB | 4 GB+ | Low RAM machines, fast responses |
-| 4 | Llama 3.2 3B Instruct Q4 | ~2.0 GB | 6 GB+ | Balanced speed and quality |
-| 5 | DeepSeek Coder 6.7B Q4 | ~3.8 GB | 8 GB+ | Pure code debugging |
-
-You can also use any custom `.gguf` model:
-
-```bash
-python -m sherpa cfg set-model /path/to/your-model.gguf
-```
-
----
-
-## Supported Shells
-
-| Shell | Platform | Status |
-|---|---|---|
-| PowerShell | Windows | ✅ |
-| Bash | Linux / macOS / WSL | ✅ |
-| Zsh | macOS / Linux | ✅ |
-| Fish | Linux / macOS | ✅ |
-
----
-
-## Requirements
-
-- Python 3.10+
-- 4 GB RAM minimum (8 GB recommended for 7B models)
-- Disk space for the model (1.6 GB – 4.1 GB depending on choice)
-- Internet connection only for the one-time model download
-
----
-
-## Troubleshooting
-
-**`sherpa` command not found**
-Use `python -m sherpa` instead. This works identically on all platforms.
-
-**Blank screen / nothing happening after running**
-The model is loading into RAM — this takes 30–60 seconds on first run. You will see:
-```
-Loading model into memory (this takes 30-60 seconds on first run)...
-```
-Just wait. It will respond.
-
-**`llama-cpp-python` build error on Windows**
-Install [Visual Studio Build Tools](https://aka.ms/vs/17/release/vs_BuildTools.exe) with "Desktop development with C++" checked, then run `python -m sherpa` again. The installer handles the rest automatically.
-
-**"Could not read shell history"**
-Run a command first (even a failing one), then run `python -m sherpa`. Sherpa reads from your live session history.
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for open tasks and contribution guidelines.
-
-Good first issues include adding `--brief` mode, pipe support (`cat error.log | python -m sherpa`), and a `sherpa watch` mode.
-
----
-
-## License
-
-[MIT](LICENSE)
+</div>
 
 ---
 
 <div align="center">
 
-*Built with Python and llama-cpp-python · Fully local · Your code never leaves your machine*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,50:00D9FF,100:0D1117&height=120&section=footer&animation=fadeIn" />
 
-**[PyPI](https://pypi.org/project/sherpa-dev/) · [GitHub](https://github.com/RishiiGamer2201/sherpa) · [Contributing](CONTRIBUTING.md)**
+![Visitor Count](https://komarev.com/ghpvc/?username=RishiiGamer2201&color=00d9ff&style=flat-square&label=Profile+Views)
+
+*"Build things that matter. Ship things that work."*
 
 </div>

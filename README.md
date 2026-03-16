@@ -1,101 +1,246 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Rishii+Kumar+Singh+%F0%9F%91%8B;AI+%2F+ML+Engineer+%F0%9F%A4%96;Computer+Vision+Enthusiast+%F0%9F%91%81%EF%B8%8F;Builder+%7C+Researcher+%7C+Maker" alt="Typing SVG" />
+# 🏔️ Sherpa
 
-<br/>
+**Explains your terminal errors in plain English. Fully local, no API key, no internet after setup.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://rishiigamer2201.github.io/portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishii-kumar-singh)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/sherpa-dev.svg)](https://pypi.org/project/sherpa-dev/)
 
 </div>
 
 ---
 
-### 🧠 About Me
+![Sherpa Demo](assets/demo.gif)
 
-```python
-class Rishii:
-    university  = "Delhi Technological University (DTU)"
-    degree      = "B.Tech — Environmental Engineering | SGPA: 8.90 (Sem 1)"
-    interests   = ["AI/ML", "Computer Vision", "Geospatial Analysis", "Entrepreneurship"]
-    experience  = "AI & ML Intern @ Artha Research & Intelligence Lab"
-    fun_fact    = "I build gesture-controlled drones. Because why not."
+```
+$ pip install rish
+ERROR: Could not find a version that satisfies the requirement rish
+
+$ python -m sherpa
+
+sherpa is thinking...
+
+Command: pip install rish
+
+╭─ Why it failed ──────────────────────────────────────────────╮
+│ The package 'rish' does not exist on PyPI. Pip searched all  │
+│ available distributions and found no match.                  │
+╰──────────────────────────────────────────────────────────────╯
+╭─ Fix ────────────────────────────────────────────────────────╮
+│ Check the package name spelling — did you mean 'rich'?       │
+│ pip install rich                                             │
+╰──────────────────────────────────────────────────────────────╯
 ```
 
 ---
 
-### 🚀 Featured Projects
+## Install
 
-| Project | Description | Stack |
-|--------|-------------|-------|
-| 🤖 [**Gesture-Controlled Drone**](https://github.com/RishiiGamer2201/gesture_drone_project) | Real-time hand gesture drone control — 10+ gestures, 25-30 FPS, AR overlays, 92%+ accuracy | Python · TensorFlow · OpenCV · MediaPipe · CNN |
-| 🖥️ [**Jarvis — AI Desktop Control**](https://github.com/RishiiGamer2201/gesture-desktop-control) | Hands-free desktop via voice + gesture; 99.54% accuracy, <50ms latency, live web dashboard | Python · Flask · SocketIO · MediaPipe · KNN |
-| 🌍 [**SIGINT // WORLDWATCH**](https://github.com/RishiiGamer2201/sigint-worldwatch) | Real-time geopolitical intelligence dashboard — 100+ sources, AI analyst chatbot, auto-refresh | React · Express · GDELT · Groq · Anthropic API |
-| 🏥 **Geospatial Healthcare Accessibility** | Travel-time mapping to identify "healthcare desert" regions in Himachal Pradesh for policy planning | Python · QGIS · Road-Network Analysis |
-| 🎯 [**AI Copilot for Hackathons**](https://github.com/RishiiGamer2201/Hack-PS) | Models teams as systems and recommends problem statements with higher execution probability | Python · OnDemand AI · Gemini |
+```bash
+pip install sherpa-dev
+```
+
+That's it. No compiler, no API key, no configuration. `pip install` only pulls in `click` and `rich` — two lightweight packages that install in seconds on any machine.
+
+## First Run
+
+```bash
+python -m sherpa
+```
+
+On first run, Sherpa does two things automatically:
+
+**Step 1 — Installs the AI engine**
+`llama-cpp-python` installs itself silently with pre-built wheels. No compiler or build tools needed on most machines.
+
+**Step 2 — Shows an interactive model picker**
+Choose a model based on your available RAM:
+
+```
+╭─────────────────────────────────────────────────────╮
+│ Choose a model based on your available RAM.         │
+│ The model downloads once and is reused every run.   │
+╰─────────────────────────────────────────────────────╯
+
+  [1]  CodeLlama 7B Instruct (Q4)
+       Size: ~4.0 GB   RAM: 8 GB+
+       Best quality — code errors, tracebacks, build failures
+
+  [2]  Mistral 7B Instruct (Q4)
+       Size: ~4.1 GB   RAM: 8 GB+
+       Great general errors, shell commands, config issues
+
+  [3]  Gemma 2B Instruct (Q4)
+       Size: ~1.6 GB   RAM: 4 GB+
+       Low RAM machines — fast, decent quality
+
+  [4]  Llama 3.2 3B Instruct (Q4)
+       Size: ~2.0 GB   RAM: 6 GB+
+       Good balance of speed and quality on mid-range machines
+
+  [5]  DeepSeek Coder 6.7B Instruct (Q4)
+       Size: ~3.8 GB   RAM: 8 GB+
+       Best for pure code debugging
+
+Enter model number [1-5]:
+```
+
+After the model downloads, every run is fully offline. No internet, no API key, no external server. Ever.
+
+> ⏳ **First explanation takes 30–60 seconds** while the model loads into RAM. Every run after that is faster as the OS caches the model.
 
 ---
 
-### 🛠️ Tech Stack
+## Usage
+
+```bash
+# Explain last terminal error (default)
+python -m sherpa
+
+# Explain a specific line in a file
+python -m sherpa explain app.py:42
+
+# Ask a freeform question
+python -m sherpa ask why is my API returning 403 only in production
+
+# Show current config
+python -m sherpa cfg show
+
+# Switch to a different model
+python -m sherpa cfg set-model /path/to/custom-model.gguf
+```
+
+> **Windows tip:** If `sherpa` is not recognised as a command after install, always use `python -m sherpa`. This works identically on all platforms.
+
+---
+
+## Why Sherpa?
+
+Every developer hits errors in their terminal every day. The usual workflow:
+
+1. Read the error → feel confused
+2. Copy the error → open browser → Google/ChatGPT → read results → come back
+
+That's a context switch. You leave your flow, lose your mental state, and waste 3–5 minutes on something that should take 5 seconds.
+
+**Sherpa eliminates that loop.** The explanation and fix come to you, right where the error happened.
+
+> 🔒 **Your code never leaves your machine.** Sherpa runs entirely locally using a quantized AI model. No data is sent anywhere. Ever.
+
+### Why not just use ChatGPT?
+
+| | Sherpa | ChatGPT / Copilot |
+|---|---|---|
+| Stays in terminal | ✅ | ❌ |
+| Works offline | ✅ | ❌ |
+| No API key | ✅ | ❌ |
+| Code never leaves machine | ✅ | ❌ |
+| Reads error automatically | ✅ | ❌ |
+| Free forever | ✅ | ❌ |
+
+---
+
+## How It Works
+
+```
+python -m sherpa
+  │
+  ├─ setup.py     → installs llama-cpp-python automatically (first run only)
+  ├─ setup.py     → interactive model picker + download (first run only)
+  ├─ config.py    → loads ~/.sherpa/config.json
+  ├─ history.py   → reads last command + stderr from shell history
+  ├─ ai.py        → loads local GGUF model, runs inference
+  └─ display.py   → prints explanation + fix with rich styling
+```
+
+| Component | Library | Purpose |
+|---|---|---|
+| CLI | `click` | Command routing, auto help text |
+| Output | `rich` | Colors, panels, syntax highlighting, progress bars |
+| AI engine | `llama-cpp-python` | Runs `.gguf` models inline, no server needed |
+
+---
+
+## Supported Models
+
+Sherpa lets you pick your model on first run. You can switch anytime with `python -m sherpa cfg set-model`.
+
+| # | Model | Size | RAM | Best for |
+|---|---|---|---|---|
+| 1 | CodeLlama 7B Instruct Q4 | ~4.0 GB | 8 GB+ | Code errors, tracebacks, build failures |
+| 2 | Mistral 7B Instruct Q4 | ~4.1 GB | 8 GB+ | General errors, shell commands, config |
+| 3 | Gemma 2B Instruct Q4 | ~1.6 GB | 4 GB+ | Low RAM machines, fast responses |
+| 4 | Llama 3.2 3B Instruct Q4 | ~2.0 GB | 6 GB+ | Balanced speed and quality |
+| 5 | DeepSeek Coder 6.7B Q4 | ~3.8 GB | 8 GB+ | Pure code debugging |
+
+You can also use any custom `.gguf` model:
+
+```bash
+python -m sherpa cfg set-model /path/to/your-model.gguf
+```
+
+---
+
+## Supported Shells
+
+| Shell | Platform | Status |
+|---|---|---|
+| PowerShell | Windows | ✅ |
+| Bash | Linux / macOS / WSL | ✅ |
+| Zsh | macOS / Linux | ✅ |
+| Fish | Linux / macOS | ✅ |
+
+---
+
+## Requirements
+
+- Python 3.10+
+- 4 GB RAM minimum (8 GB recommended for 7B models)
+- Disk space for the model (1.6 GB – 4.1 GB depending on choice)
+- Internet connection only for the one-time model download
+
+---
+
+## Troubleshooting
+
+**`sherpa` command not found**
+Use `python -m sherpa` instead. This works identically on all platforms.
+
+**Blank screen / nothing happening after running**
+The model is loading into RAM — this takes 30–60 seconds on first run. You will see:
+```
+Loading model into memory (this takes 30-60 seconds on first run)...
+```
+Just wait. It will respond.
+
+**`llama-cpp-python` build error on Windows**
+Install [Visual Studio Build Tools](https://aka.ms/vs/17/release/vs_BuildTools.exe) with "Desktop development with C++" checked, then run `python -m sherpa` again. The installer handles the rest automatically.
+
+**"Could not read shell history"**
+Run a command first (even a failing one), then run `python -m sherpa`. Sherpa reads from your live session history.
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for open tasks and contribution guidelines.
+
+Good first issues include adding `--brief` mode, pipe support (`cat error.log | python -m sherpa`), and a `sherpa watch` mode.
+
+---
+
+## License
+
+[MIT](LICENSE)
+
+---
 
 <div align="center">
 
-**Languages**
+*Built with Python and llama-cpp-python · Fully local · Your code never leaves your machine*
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
-
-**AI / ML & Computer Vision**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=OpenCV&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
-
-**Tools & Frameworks**
-
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=flat-square&logo=flask&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=RishiiGamer2201&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RishiiGamer2201&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=RishiiGamer2201&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-### 🏆 Achievements & Awards
-
-- 🥈 **Finalist** — CaseQuest '26 · AI-First Strategy Case Competition · DTU Consulting Group × IEEE DTU (Invictus '26)
-- ⚡ **Qualified for Finale** — Brainwave 2.0 · OnDemand Track
-- 📐 **Indian Olympiad Qualifier in Mathematics (IOQM)** — Top 10% nationwide
-- 🎖️ **NDA Qualified — 3 consecutive times** (NDA 2 2024 · NDA 1 2025 · NDA 2 2025) via UPSC
-- 🌐 **India-Russia Space Dialogue 2023** — Delegate, Russian Centre of Science and Culture, New Delhi
-- 📜 **Certifications** — DeepLearning.AI (CNN, ML Specialization, Advanced Learning Algorithms, Unsupervised Learning & RL, Supervised ML) · Kaggle (Intro & Intermediate ML) · IIT Madras Data Science & AI (8 Weeks)
-
----
-
-<div align="center">
-
-*"Build things that matter. Understand why they work."*
-
-![Visitor Count](https://komarev.com/ghpvc/?username=RishiiGamer2201&color=00d9ff&style=flat-square&label=Profile+Views)
+**[PyPI](https://pypi.org/project/sherpa-dev/) · [GitHub](https://github.com/RishiiGamer2201/sherpa) · [Contributing](CONTRIBUTING.md)**
 
 </div>

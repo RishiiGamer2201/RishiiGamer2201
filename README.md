@@ -190,8 +190,12 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 ## GitHub Stats
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RishiiGamer2201&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00D9FF&icon_color=7B2FBE&text_color=FFFFFF" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RishiiGamer2201&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
+<a href="https://github.com/RishiiGamer2201">
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=RishiiGamer2201&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00D9FF&icon_color=7B2FBE&text_color=FFFFFF" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/RishiiGamer2201">
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=RishiiGamer2201&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages" />
+</a>
 
 <br/>
 
@@ -203,7 +207,7 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RishiiGamer2201&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=7B2FBE&point=00D9FF&area=true&area_color=7B2FBE" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RishiiGamer2201&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=7B2FBE&point=00D9FF&area=true&area_color=7B2FBE" alt="Contribution Graph" />
 
 </div>
 
@@ -214,16 +218,16 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 | | |
 |---|---|
-| 1st | **1st Place - Green Tag** | BITS Pilani APOGEE 2026 | DisasterOS disaster prediction platform |
-| Top 3 | **Finalist (Top 3) - ArmorIQ** | BITS Pilani APOGEE 2026 | LLM policy enforcement webapp (Instinct) |
-| Finalist | **Finalist - CaseQuest '26** | AI-First Strategy Case Competition | DTU Consulting Group x IEEE DTU (Invictus '26) |
-| Finale | **Qualified for Finale** - Brainwave 2.0 | OnDemand AI Track |
-| Hackathon | **Curebay Hackathon** - BITS APOGEE 2026 | Built Android app for healthcare workers | Result Awaited |
-| Hackathon | **Devswarm Hackathon** - BITS APOGEE 2026 | Multi-agent website builder (PolyAgent CI) | Result Awaited |
-| Top 10% | **[IOQM](https://drive.google.com/file/d/1-z6ZqXkMcsqOYBGKiAw7e6T3K73ad3Sx/view)** - Indian Olympiad Qualifier in Mathematics | Top 10% nationwide |
+| 1st | **1st Place - Green Tag** at BITS Pilani APOGEE 2026. DisasterOS disaster prediction platform |
+| Top 3 | **Finalist (Top 3) - ArmorIQ** at BITS Pilani APOGEE 2026. LLM policy enforcement webapp (Instinct) |
+| Finalist | **Finalist - CaseQuest '26** AI-First Strategy Case Competition. DTU Consulting Group x IEEE DTU (Invictus '26) |
+| Finale | **Qualified for Finale** at Brainwave 2.0, OnDemand AI Track |
+| Hackathon | **Curebay Hackathon** at BITS APOGEE 2026. Built Android app for healthcare workers. *Result Awaited* |
+| Hackathon | **Devswarm Hackathon** at BITS APOGEE 2026. Multi-agent website builder (PolyAgent CI). *Result Awaited* |
+| Top 10% | **[IOQM](https://drive.google.com/file/d/1-z6ZqXkMcsqOYBGKiAw7e6T3K73ad3Sx/view)** Indian Olympiad Qualifier in Mathematics. Top 10% nationwide |
 | 3x | **NDA Qualified - 3 consecutive times** (NDA 2 2024, NDA 1 2025, NDA 2 2025) via UPSC |
-| Delegate | **India-Russia Space Dialogue 2023** - Delegate | Russian Centre of Science and Culture, New Delhi |
-| 8.90 | **DTU - 8.90 SGPA** | 1st Semester | Delhi Technological University |
+| Delegate | **India-Russia Space Dialogue 2023** Delegate at Russian Centre of Science and Culture, New Delhi |
+| 8.90 | **DTU - 8.90 SGPA** 1st Semester at Delhi Technological University |
 
 </div>
 
@@ -260,6 +264,9 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 ---
 
 ## Open Source
+
+### Sherpa - Local AI Terminal Error Explainer
+
 <div align="center">
 
 [![Sherpa](https://img.shields.io/badge/sherpa--dev-PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/sherpa-dev/)
@@ -271,7 +278,46 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 pip install sherpa-dev && python -m sherpa
 ```
 
+No API key. No internet after setup. Runs 5 LLMs (1.6-4GB) entirely on your machine.
+
 </div>
+
+---
+
+### GSSoC 2026 - GirlScript Summer of Code
+
+<div align="center">
+
+[![GSSoC](https://img.shields.io/badge/GSSoC_2026-Contributor-FF6B35?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://gssoc.girlscript.tech/)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+**AI Agents Track**
+
+```
+Selected as Contributor
+```
+
+Building and contributing to AI agent-based open source projects
+
+</td>
+<td width="50%" align="center">
+
+**Open Source Track**
+
+```
+Selected as Contributor
+```
+
+First-time open source contributor, participating in community-driven development
+
+</td>
+</tr>
+</table>
 
 ---
 

@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7B2FBE&height=200&section=header&text=Rishii%20Kumar%20Singh&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Computer%20Vision%20%7C%20Builder&descAlignY=58&descSize=18&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7B2FBE&height=200&section=header&text=Rishii%20Kumar%20Singh&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Computer%20Vision%20%7C%20LLMs%20%7C%20Builder&descAlignY=58&descSize=18&animation=fadeIn" />
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Building+AI+that+runs+on+your+machine;Computer+Vision+%7C+Local+LLMs+%7C+Geospatial+ML;DTU+%7C+Environmental+Engg+%7C+SGPA+8.90;Deep+Learning+Specialization+%7C+14%2B+Certs;pip+install+sherpa-dev+%26%26+python+-m+sherpa)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=720&lines=Building+AI+across+vision%2C+language%2C+and+the+edge;Computer+Vision+%7C+LLMs+%26+RAG+%7C+Geospatial+ML;Research+Intern+%40+AIMS-DTU+%7C+AI%2FML+Intern+%40+Indian+Navy;DTU+%7C+Deep+Learning+Specialization+%7C+14%2B+Certs;pip+install+sherpa-dev+%26%26+python+-m+sherpa)](https://git.io/typing-svg)
 
 <br/>
 
@@ -29,11 +29,21 @@ class Rishii:
     sgpa        = 8.90  # Semester 1
     location    = "New Delhi, India"
 
-    focus       = ["Local LLMs", "Computer Vision", "Deep Learning", "Geospatial ML"]
-    currently   = "Building AI tools that run fully offline"
+    focus       = ["Computer Vision", "LLMs & RAG", "Deep Learning", "Geospatial ML"]
+    currently   = ["Research Intern @ AIMS-DTU",
+                   "AI/ML Intern @ WESEE (Indian Navy)"]
     past        = "AI & ML Intern @ Artha Research & Intelligence Lab"
-    open_to     = "Summer 2026 AI/ML Internships"
+    building    = "AI across vision, language, and the edge"
+    open_to     = "AI/ML internships and collaborations"
 ```
+
+---
+
+## Experience
+
+- **Research Intern, AIMS-DTU** *(Jun 2026 - Present)* - Applied ML work on LLM evaluation and knowledge graphs.
+- **AI/ML Intern, WESEE, Indian Navy** *(Jun 2026 - Jul 2026)* - Computer vision and object detection on satellite imagery.
+- **AI & ML Intern, Artha Research & Intelligence Lab** *(Oct 2025 - Dec 2025)* - Geospatial ML for healthcare accessibility in Himachal Pradesh.
 
 ---
 
@@ -42,10 +52,38 @@ class Rishii:
 <tr>
 <td width="50%">
 
+### [Process Reward Model for Multi-Hop QA](https://github.com/RishiiGamer2201/prm-hotpotqa)
+**Scoring reasoning steps in a multi-hop RAG pipeline.**
+
+A process reward model over a HotpotQA RAG pipeline that scores intermediate reasoning steps and filters weak retrievals. FAISS retriever, cross-encoder gate, and RAGAS evaluation across five metrics with bootstrap confidence intervals.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-00D9FF?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-7B2FBE?style=flat-square)
+
+</td>
+<td width="50%">
+
+### [Digital Twin - Nikola Tesla](https://github.com/RishiiGamer2201/digital-twin-tesla)
+**A conversational agent that emulates a scientist.**
+
+RAG over a curated corpus with long-term memory, a knowledge graph, streaming chat, and voice input and output. Built on Gemini with a Streamlit interface.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google)
+![RAG](https://img.shields.io/badge/RAG-00D9FF?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### [Sherpa](https://github.com/RishiiGamer2201/sherpa) - *Published on PyPI*
 **Local AI terminal error explainer. No API key. No internet after setup.**
 
-Reads your last terminal error and explains what went wrong + the exact fix. Runs 5 different LLMs (1.6-4GB) entirely on your machine. Works on PowerShell, bash, zsh, fish.
+Reads your last terminal error and explains what went wrong plus the exact fix. Runs 5 different LLMs (1.6-4GB) entirely on your machine. Works on PowerShell, bash, zsh, fish.
 
 `pip install sherpa-dev` > `python -m sherpa`
 
@@ -90,7 +128,7 @@ MediaPipe + KNN with 3,261 training samples, <50ms latency. Live Flask + SocketI
 ### [SIGINT // WORLDWATCH](https://github.com/RishiiGamer2201/sigint-worldwatch)
 **Real-time geopolitical intelligence dashboard.**
 
-100+ live sources, AI analyst chatbot, auto-refresh. Built with React + Express, GDELT dataset, Anthropic API. Full intelligence-grade news aggregation and analysis.
+100+ live sources, AI analyst chatbot, auto-refresh. Built with React + Express, GDELT dataset, Anthropic API. Full news aggregation and analysis.
 
 [Live Demo](https://sigint-worldwatch.vercel.app/)
 
@@ -147,6 +185,7 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 **AI / ML and Deep Learning**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -158,13 +197,16 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
+![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics_YOLO-111F68?style=for-the-badge)
 ![Gesture Recognition](https://img.shields.io/badge/Gesture_Recognition-FF6F00?style=for-the-badge)
-![AR Overlays](https://img.shields.io/badge/AR_Overlays-7B2FBE?style=for-the-badge)
 
-**Local LLMs and Inference**
+**LLMs, RAG and Inference**
 
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-00D9FF?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-7B2FBE?style=for-the-badge)
 ![llama-cpp](https://img.shields.io/badge/llama--cpp--python-8B0000?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![GGUF](https://img.shields.io/badge/GGUF_Models-7B2FBE?style=for-the-badge)
 
 **Tools and Frameworks**
@@ -172,6 +214,7 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
@@ -180,8 +223,8 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_API-000000?style=for-the-badge)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
-![Click](https://img.shields.io/badge/Click_CLI-00D9FF?style=for-the-badge)
 
 </div>
 
@@ -292,32 +335,7 @@ No API key. No internet after setup. Runs 5 LLMs (1.6-4GB) entirely on your mach
 
 </div>
 
-<table>
-<tr>
-<td width="50%" align="center">
-
-**AI Agents Track**
-
-```
-Selected as Contributor
-```
-
-Building and contributing to AI agent-based open source projects
-
-</td>
-<td width="50%" align="center">
-
-**Open Source Track**
-
-```
-Selected as Contributor
-```
-
-First-time open source contributor, participating in community-driven development
-
-</td>
-</tr>
-</table>
+Contributor across the AI Agents and Open Source tracks, with merged and approved PRs across multiple project repositories, including SahiDawa (a medicine-verification platform) for pharmacy price-scraping and pricing features.
 
 ---
 

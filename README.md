@@ -246,10 +246,6 @@ Squad-architecture synergy scoring, interactive dashboards, media agents that ge
 
 <br/>
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=RishiiGamer2201&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-<br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RishiiGamer2201&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=7B2FBE&point=00D9FF&area=true&area_color=7B2FBE" alt="Contribution Graph" />
 
 </div>

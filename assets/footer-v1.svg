@@ -1,0 +1,19 @@
+<svg width="1280" height="130" viewBox="0 0 1280 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="22" y1="12" x2="1260" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061421"/>
+      <stop offset="0.52" stop-color="#10243F"/>
+      <stop offset="1" stop-color="#32145F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="82" y1="0" x2="1190" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#22D3EE"/>
+      <stop offset="0.75" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="130" rx="22" fill="url(#bg)"/>
+  <path d="M80 26H1200" stroke="url(#line)"/>
+  <text x="640" y="70" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="750">Build things that matter. Ship things that work.</text>
+  <text x="640" y="99" text-anchor="middle" fill="#8EA9C1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">New Delhi, India  |  Research  |  Engineering  |  Open Source</text>
+</svg>

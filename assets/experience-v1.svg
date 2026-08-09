@@ -1,0 +1,57 @@
+<svg width="1280" height="310" viewBox="0 0 1280 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="1250" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06131F"/>
+      <stop offset="0.56" stop-color="#0D1D34"/>
+      <stop offset="1" stop-color="#25143F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="76" y1="0" x2="1204" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#93C5FD" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1278" height="308" rx="24" fill="url(#bg)" stroke="url(#line)" stroke-opacity="0.3"/>
+  <rect x="1" y="1" width="1278" height="308" rx="24" fill="url(#grid)"/>
+  <text x="30" y="43" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2.5">EXPERIENCE / TIMELINE</text>
+  <path d="M80 257H1200" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="28" y="69" width="385" height="156" rx="18" fill="#071C29" stroke="#22D3EE" stroke-opacity="0.42"/>
+    <rect x="47" y="87" width="76" height="24" rx="12" fill="#0B3140"/>
+    <text x="85" y="103" text-anchor="middle" fill="#67E8F9" font-size="10" font-weight="800">CURRENT</text>
+    <text x="47" y="139" fill="#FFFFFF" font-size="20" font-weight="800">Research Intern</text>
+    <text x="47" y="164" fill="#9DDFF0" font-size="14" font-weight="700">AIMS-DTU</text>
+    <text x="47" y="190" fill="#8EA7BA" font-size="11.5">Applied ML research with reproducible</text>
+    <text x="47" y="208" fill="#8EA7BA" font-size="11.5">experimentation and evaluation.</text>
+    <text x="296" y="103" fill="#819AAF" font-size="11">Jun 2026 - Present</text>
+
+    <rect x="448" y="69" width="385" height="156" rx="18" fill="#0D1A31" stroke="#60A5FA" stroke-opacity="0.4"/>
+    <rect x="467" y="87" width="64" height="24" rx="12" fill="#132D4B"/>
+    <text x="499" y="103" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="800">PAST</text>
+    <text x="467" y="139" fill="#FFFFFF" font-size="20" font-weight="800">AI/ML Intern</text>
+    <text x="467" y="164" fill="#B7D7FF" font-size="14" font-weight="700">WESEE, Ministry of Defence</text>
+    <text x="467" y="190" fill="#8EA7BA" font-size="11.5">Computer vision for space-based remote</text>
+    <text x="467" y="208" fill="#8EA7BA" font-size="11.5">sensing with PyTorch, ONNX, and YOLO.</text>
+    <text x="694" y="103" fill="#819AAF" font-size="11">Jun - Jul 2026</text>
+
+    <rect x="868" y="69" width="385" height="156" rx="18" fill="#21163A" stroke="#C084FC" stroke-opacity="0.42"/>
+    <rect x="887" y="87" width="64" height="24" rx="12" fill="#342152"/>
+    <text x="919" y="103" text-anchor="middle" fill="#D8B4FE" font-size="10" font-weight="800">PAST</text>
+    <text x="887" y="139" fill="#FFFFFF" font-size="20" font-weight="800">AI and ML Intern</text>
+    <text x="887" y="164" fill="#E0C5FF" font-size="14" font-weight="700">Artha Research and Intelligence Lab</text>
+    <text x="887" y="190" fill="#8EA7BA" font-size="11.5">Geospatial ML for healthcare-accessibility</text>
+    <text x="887" y="208" fill="#8EA7BA" font-size="11.5">mapping across Himachal Pradesh.</text>
+    <text x="1100" y="103" fill="#819AAF" font-size="11">Oct - Dec 2025</text>
+
+    <circle cx="220" cy="257" r="9" fill="#07131F" stroke="#22D3EE" stroke-width="4"/>
+    <circle cx="640" cy="257" r="9" fill="#07131F" stroke="#60A5FA" stroke-width="4"/>
+    <circle cx="1060" cy="257" r="9" fill="#07131F" stroke="#C084FC" stroke-width="4"/>
+    <text x="220" y="289" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700">NOW</text>
+    <text x="640" y="289" text-anchor="middle" fill="#93C5FD" font-size="11" font-weight="700">2026</text>
+    <text x="1060" y="289" text-anchor="middle" fill="#D8B4FE" font-size="11" font-weight="700">2025</text>
+  </g>
+</svg>

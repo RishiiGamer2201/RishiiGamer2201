@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Rishii Kumar Singh | AI/ML researcher and builder" width="100%" />
+  <img src="./assets/profile-header-v2.svg" alt="Rishii Kumar Singh | AI/ML researcher and builder" width="100%" />
 </p>
 
 <p align="center">

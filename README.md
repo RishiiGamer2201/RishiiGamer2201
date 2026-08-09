@@ -10,10 +10,6 @@
   <a href="https://x.com/RishiiSingh2201"><img src="https://img.shields.io/badge/X-111111?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1300&color=2DE2E6&center=true&vCenter=true&width=850&lines=Building+grounded+AI+systems+that+people+can+actually+use;Computer+Vision+%7C+LLMs+and+RAG+%7C+AI+Agents+%7C+Local+AI;Research+Intern+at+AIMS-DTU+%7C+Open-source+builder" alt="Current focus" />
-</p>
-
 <table>
 <tr>
 <td align="center" width="25%"><strong>6,845</strong><br/><sub>official-law chunks indexed</sub></td>

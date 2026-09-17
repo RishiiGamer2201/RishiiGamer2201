@@ -1,123 +1,103 @@
 <p align="center">
-  <img src="./assets/profile-hero-v3.svg" alt="Rishii Kumar Singh, AI/ML researcher and full-stack builder" width="100%" />
+  <img src="./assets/profile-hero-v3.svg" alt="Rishii Kumar Singh — AI/ML researcher and full-stack builder. Co-Head and Research Intern at AIMS-DTU, formerly AI/ML Intern at WESEE." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://portfolio-rishii.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-101B33?style=for-the-badge&logo=firefox&logoColor=2DE2E6" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/rishiikumarsingh/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:rishiikumarsingh2201@gmail.com"><img src="https://img.shields.io/badge/EMAIL-B4235A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://leetcode.com/u/CrimsonHex/"><img src="https://img.shields.io/badge/LEETCODE-E59B25?style=for-the-badge&logo=leetcode&logoColor=111111" alt="LeetCode" /></a>
+  <a href="https://portfolio-rishii.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-101B33?style=for-the-badge&logo=firefox&logoColor=2DE2E6" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rishiikumarsingh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rishiikumarsingh2201@gmail.com"><img src="https://img.shields.io/badge/Email-B4235A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://huggingface.co/LogicPalette"><img src="https://img.shields.io/badge/Hugging%20Face-FF9D00?style=for-the-badge&logo=huggingface&logoColor=111111" alt="Hugging Face" /></a>
   <a href="https://x.com/RishiiSingh2201"><img src="https://img.shields.io/badge/X-111827?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
-<p align="center">
-  <img src="./assets/metrics-v1.svg" alt="Selected engineering metrics" width="100%" />
-</p>
 
-<h2 align="center">About</h2>
+## About
 
-<p align="center">
-  B.Tech student at <strong>Delhi Technological University</strong>, Research Intern at <strong>AIMS-DTU</strong>,<br/>
-  and former AI/ML Intern at <strong>WESEE, Ministry of Defence, Government of India</strong>.
-</p>
+B.Tech Environmental Engineering at **Delhi Technological University** (2025–2029). Research Intern and Co-Head at **AIMS-DTU**, the university's AI/ML research community. Previously AI/ML Intern at **WESEE, Ministry of Defence**.
 
-<p align="center">
-  I build AI systems across vision, language and local inference, with an emphasis on grounded outputs,<br/>
-  reproducible evaluation and software that survives outside a notebook.
-</p>
+Most of my work sits on one problem: a model that sounds right is not the same as a model that is right. So I build retrieval systems that carry citations, evaluation harnesses that survive a second look, and vision pipelines that run on the machine in front of you instead of someone else's API.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/GROUNDED_AI-0F2747?style=flat-square&logoColor=white" alt="Grounded AI" />
-  <img src="https://img.shields.io/badge/REPRODUCIBLE_EVALUATION-3B1768?style=flat-square&logoColor=white" alt="Reproducible evaluation" />
-  <img src="https://img.shields.io/badge/PRODUCT_ENGINEERING-123C55?style=flat-square&logoColor=white" alt="Product engineering" />
-</p>
+**Currently:** knowledge-graph completion and source-faithfulness evaluation, working toward a first-author manuscript.
 
-<h2 align="center">Featured Systems</h2>
 
-<p align="center">
-  <a href="https://github.com/RishiiGamer2201/Gemma_Hack"><img src="./assets/project-nyaya-v1.svg" alt="Nyaya Navigator" width="49%" /></a>
-  <a href="https://github.com/RishiiGamer2201/polyagent-ci"><img src="./assets/project-polyagent-v1.svg" alt="PolyAgent CI" width="49%" /></a>
-</p>
+## Featured work
 
-<p align="center">
-  <a href="https://github.com/RishiiGamer2201/sherpa"><img src="./assets/project-sherpa-v1.svg" alt="Sherpa" width="49%" /></a>
-  <a href="https://github.com/RishiiGamer2201/gesture-desktop-control"><img src="./assets/project-jarvis-v1.svg" alt="Jarvis" width="49%" /></a>
-</p>
+| Project | What it is | Notable |
+| --- | --- | --- |
+| **[Sherpa](https://github.com/RishiiGamer2201/sherpa)** | Terminal assistant that explains command output and errors using a local GGUF model. | Published to PyPI as [`sherpa-dev`](https://pypi.org/project/sherpa-dev/). No API key, no network after model download. `pip install sherpa-dev` |
+| **[Nyaya Navigator](https://github.com/RishiiGamer2201/Gemma_Hack)** | Offline English/Hindi/Hinglish legal-information navigator. | 6,845 chunks from 30 official law PDFs. BM25 + EmbeddingGemma fused by reciprocal rank, with citation gates and refusal on unsupported claims. |
+| **[PolyAgent CI](https://github.com/RishiiGamer2201/polyagent-ci)** | Orchestrates four coding agents across isolated Git worktrees. | Dependency-aware DAG with cycle detection, topological scheduling, contract review and test-gated merges. |
+| **[Apna Saathi](https://github.com/RishiiGamer2201/apna-saathi)** | Offline Hindi household-assistance assistant for a constrained Jetson board, built on the Suno Sutra retrieval base. | SQLite FTS5 lexical retrieval with a local Qwen model over Ollama. Measured on the target board: 2.70 s median, 3.64 s at p90. |
+| **[Jarvis](https://github.com/RishiiGamer2201/gesture-desktop-control)** | Gesture and voice desktop control — cursor, click, scroll, volume. | MediaPipe hand landmarks into a KNN classifier, with a Flask/Socket.IO dashboard. [Demo](https://www.youtube.com/watch?v=thcPBI7ImGQ) |
 
-<p align="center">
-  <a href="https://github.com/RishiiGamer2201/digital-twin-tesla"><img src="./assets/project-tesla-v1.svg" alt="Digital Twin of Nikola Tesla" width="49%" /></a>
-</p>
+The rest, including hackathon work and smaller tools, is on [my portfolio](https://portfolio-rishii.vercel.app/#projects).
 
-<p align="center">
-  <a href="https://portfolio-rishii.vercel.app/#projects"><img src="https://img.shields.io/badge/EXPLORE_ALL_PROJECTS-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore all projects" /></a>
-</p>
 
-<details>
-<summary><strong>Project details, installation and demos</strong></summary>
+## Open source
 
-- **Nyaya Navigator:** Offline multilingual legal navigation over 6,845 official-law chunks, with claim-level source verification, effective-date checks, local OCR and unsupported-claim refusal.
-- **PolyAgent CI:** Coordinates four coding agents across isolated Git worktrees through a dependency-aware DAG, semantic review, conflict resolution and test-gated merges.
-- **Sherpa:** Local LLM terminal assistant published on [PyPI](https://pypi.org/project/sherpa-dev/). Install with `pip install sherpa-dev` and run without an API key or internet after setup.
-- **Jarvis:** Voice and gesture desktop control trained on 3,261 samples, with 99.54% measured accuracy and recognition latency below 50 ms. [Watch the demo](https://www.youtube.com/watch?v=thcPBI7ImGQ).
-- **Digital Twin of Nikola Tesla:** Source-grounded RAG agent over Tesla's writings, patents and interviews, with citations, persistent memory, voice interaction and an explorable knowledge graph.
+I spend most of my open-source time in other people's repositories, which is where the review is real.
 
-</details>
+**35 merged pull requests across 15 repositories. 16 of those were merged by maintainers of projects I do not own.**
 
-<h2 align="center">Experience</h2>
+| Project | Contribution |
+| --- | --- |
+| [scikit-bio](https://github.com/scikit-bio/scikit-bio/pull/2556) | Replaced deprecated NumPy `assert_warns` across the test suite. |
+| [scikit-verify](https://github.com/aadya940/scikit-verify/pull/32) | Differential coverage tests for binary ufuncs. |
+| [Heliox-OS](https://github.com/VyomKulshrestha/Heliox-OS/pulls?q=is%3Apr+author%3ARishiiGamer2201) | 10 merged PRs: WebSocket token streaming, action parallelization with dependency analysis, agent capability auto-discovery, rolling context compression for ReAct loops, daemon auto-restart. |
+| [AegisAI](https://github.com/SdSarthak/AegisAI/pulls?q=is%3Apr+author%3ARishiiGamer2201) | Bulk CSV import for AI system records, plus unit tests for the LLM client. |
+| [SahiDawa](https://github.com/RatLoopz/sahidawa-india/pull/88) | Winston structured logging for the API. |
 
-<p align="center">
-  <img src="./assets/experience-v1.svg" alt="Research and engineering experience timeline" width="100%" />
-</p>
+**GSSoC 2026** — rank **1,662 of 47,951** (top 3.5%), 2,507 points, 13 merged PRs across three projects.
 
-<h2 align="center">Technical Stack</h2>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,flask,react,tailwind,git,sqlite,postgres,aws&perline=8" alt="Python, C++, TypeScript, JavaScript, PyTorch, TensorFlow, OpenCV, FastAPI, Flask, React, Tailwind CSS, Git, SQLite, PostgreSQL and AWS" />
-</p>
+## Research
 
-<p align="center">
-  <code>RAG</code>&nbsp;
-  <code>AI agents</code>&nbsp;
-  <code>local inference</code>&nbsp;
-  <code>FAISS</code>&nbsp;
-  <code>ChromaDB</code>&nbsp;
-  <code>llama.cpp</code>&nbsp;
-  <code>ONNX</code>&nbsp;
-  <code>MediaPipe</code>&nbsp;
-  <code>QGIS</code>
-</p>
+At AIMS-DTU, under Prof. Dinesh K. Vishwakarma:
 
-<h2 align="center">GitHub Activity</h2>
+- **Knowledge-graph completion.** Reproducing TransE and RotatE baselines on FB15k-237 and WN18RR, and reading the evaluation protocol carefully enough to know what the numbers do not say.
+- **Source-conditioned faithfulness.** A per-triple gate that asks whether the source document actually supports a triple an LLM extracted from it. A DeBERTa-v3 cross-encoder, with synthetic corruption controls and source-blind ablations, evaluated across WebNLG, DocRED, REBEL and SciERC. The distinction that matters here is faithfulness to a source, not truth in general.
+- **Multilingual inductive entity retrieval.** BGE-M3 with LoRA, reciprocal queries and concept-disjoint splits, built to keep answer exposure out of the evaluation.
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishiiGamer2201&theme=tokyonight" alt="GitHub contribution summary" width="98%" />
-</p>
+Manuscripts in preparation. Nothing submitted or accepted yet — I will update this line when that changes.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RishiiGamer2201&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2DE2E6&line=8B5CF6&point=2DE2E6&area=true&area_color=4C1D95" alt="GitHub contribution graph" width="98%" />
-</p>
 
-<h2 align="center">Selected Achievements</h2>
+## Stack
 
-<p align="center">
-  <img src="./assets/achievements-v1.svg" alt="Selected competition and academic achievements" width="100%" />
-</p>
+**Languages** — Python, C++, TypeScript, JavaScript, SQL
 
-<details>
-<summary><strong>Selected certifications</strong></summary>
+**ML** — PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, OpenCV, MediaPipe, ONNX
 
-- [Deep Learning Specialization, DeepLearning.AI](https://coursera.org/verify/specialization/WQ6EOXR8U51L)
-- [Machine Learning Specialization, DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/8JFNCYJQ96M7)
-- [Data Science and AI, IIT Madras](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)
+**Retrieval and local inference** — FAISS, ChromaDB, BM25, SQLite FTS5, llama.cpp, GGUF, Ollama
 
-</details>
+**Services and data** — FastAPI, Flask, React, PostgreSQL, SQLite, Docker, pandas, QGIS
 
-<br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RishiiGamer2201&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
+## Selected achievements
 
-<p align="center">
-  <img src="./assets/footer-v1.svg" alt="Build things that matter. Ship things that work." width="100%" />
-</p>
+- **First place, Green Tag track — BITS APOGEE 2026.** Five-person team.
+- **GSSoC 2026** — top 3.5% of 47,951 contributors.
+- **Deep Learning Specialization** and **Machine Learning Specialization**, DeepLearning.AI. [[1]](https://coursera.org/verify/specialization/WQ6EOXR8U51L) [[2]](https://www.coursera.org/account/accomplishments/specialization/8JFNCYJQ96M7)
+- **Data Science and AI**, IIT Madras. [[Certificate]](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)
+
+
+<!--
+  Contribution card. Hosted service, verified responding 17 Sep 2026.
+  Do not swap this for github-readme-stats.vercel.app or
+  github-readme-activity-graph.vercel.app: both are offline as of today
+  (DEPLOYMENT_PAUSED and DEPLOYMENT_DISABLED respectively).
+
+  To stop depending on a hosted service at all, add the workflow in
+  .github/workflows/profile-summary-cards.yml, run it once from the Actions
+  tab, then replace the block below with:
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg">
+    <img alt="Summary of my GitHub contributions, languages and activity" src="./profile-summary-card-output/default/0-profile-details.svg" width="100%">
+  </picture>
+-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishiiGamer2201&theme=github_dark">
+  <img alt="Summary of my GitHub contributions, languages and activity" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishiiGamer2201&theme=default" width="100%">
+</picture>
+
+<p align="center"><em>Build things that matter. Ship things that work.</em></p>

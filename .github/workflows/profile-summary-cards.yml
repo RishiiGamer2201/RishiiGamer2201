@@ -1,0 +1,39 @@
+# Generates the profile stats SVGs once a day and commits them into this repo,
+# so the README points at files we own instead of calling a third-party service
+# at render time.
+#
+# Context: on 17 Sep 2026, github-readme-stats.vercel.app returned
+# DEPLOYMENT_PAUSED and github-readme-activity-graph.vercel.app returned
+# DEPLOYMENT_DISABLED. A committed SVG cannot go down or be rate-limited.
+#
+# One-time setup before this is useful:
+#   1. Create a classic personal access token with the `repo` scope.
+#   2. Add it to this repo as a secret named SUMMARY_GITHUB_TOKEN.
+#   3. Run this workflow once from the Actions tab.
+#   4. Swap the README's contribution card to the committed paths
+#      (the commented block above it shows exactly what to paste).
+
+name: GitHub profile summary cards
+
+on:
+  schedule:
+    # 00:00 UTC daily. Do not use "* */24 * * *" — that fires every minute of hour 0.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 5.5
+          AUTO_PUSH: true

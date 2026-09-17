@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero-v3.svg" alt="Rishii Kumar Singh — AI/ML researcher and full-stack builder. Co-Head and Research Intern at AIMS-DTU, formerly AI/ML Intern at WESEE." width="100%" />
+  <img src="./assets/profile-hero-v3.svg" alt="Rishii Kumar Singh, AI/ML researcher and full-stack builder. Co-Head and Research Intern at AIMS-DTU, formerly AI/ML Intern at WESEE." width="100%" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ## About
 
-B.Tech Environmental Engineering at **Delhi Technological University** (2025–2029). Research Intern and Co-Head at **AIMS-DTU**, the university's AI/ML research community. Previously AI/ML Intern at **WESEE, Ministry of Defence**.
+B.Tech Environmental Engineering at **Delhi Technological University** (2025 to 2029). Research Intern and Co-Head at **AIMS-DTU**, the university's AI/ML research community. Previously AI/ML Intern at **WESEE, Ministry of Defence**.
 
 Most of my work sits on one problem: a model that sounds right is not the same as a model that is right. So I build retrieval systems that carry citations, evaluation harnesses that survive a second look, and vision pipelines that run on the machine in front of you instead of someone else's API.
 
@@ -28,7 +28,7 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 | **[Nyaya Navigator](https://github.com/RishiiGamer2201/Gemma_Hack)** | Offline English/Hindi/Hinglish legal-information navigator. | 6,845 chunks from 30 official law PDFs. BM25 + EmbeddingGemma fused by reciprocal rank, with citation gates and refusal on unsupported claims. |
 | **[PolyAgent CI](https://github.com/RishiiGamer2201/polyagent-ci)** | Orchestrates four coding agents across isolated Git worktrees. | Dependency-aware DAG with cycle detection, topological scheduling, contract review and test-gated merges. |
 | **[Apna Saathi](https://github.com/RishiiGamer2201/apna-saathi)** | Offline Hindi household-assistance assistant for a constrained Jetson board, built on the Suno Sutra retrieval base. | SQLite FTS5 lexical retrieval with a local Qwen model over Ollama. Measured on the target board: 2.70 s median, 3.64 s at p90. |
-| **[Jarvis](https://github.com/RishiiGamer2201/gesture-desktop-control)** | Gesture and voice desktop control — cursor, click, scroll, volume. | MediaPipe hand landmarks into a KNN classifier, with a Flask/Socket.IO dashboard. [Demo](https://www.youtube.com/watch?v=thcPBI7ImGQ) |
+| **[Jarvis](https://github.com/RishiiGamer2201/gesture-desktop-control)** | Gesture and voice desktop control for cursor, click, scroll and volume. | MediaPipe hand landmarks into a KNN classifier, with a Flask/Socket.IO dashboard. [Demo](https://www.youtube.com/watch?v=thcPBI7ImGQ) |
 
 The rest, including hackathon work and smaller tools, is on [my portfolio](https://portfolio-rishii.vercel.app/#projects).
 
@@ -47,7 +47,7 @@ I spend most of my open-source time in other people's repositories, which is whe
 | [AegisAI](https://github.com/SdSarthak/AegisAI/pulls?q=is%3Apr+author%3ARishiiGamer2201) | Bulk CSV import for AI system records, plus unit tests for the LLM client. |
 | [SahiDawa](https://github.com/RatLoopz/sahidawa-india/pull/88) | Winston structured logging for the API. |
 
-**GSSoC 2026** — rank **1,662 of 47,951** (top 3.5%), 2,507 points, 13 merged PRs across three projects.
+In **GSSoC 2026** I placed **1,662 of 47,951** (top 3.5%), with 2,507 points and 13 merged PRs across three projects.
 
 
 ## Research
@@ -58,24 +58,24 @@ At AIMS-DTU, under Prof. Dinesh K. Vishwakarma:
 - **Source-conditioned faithfulness.** A per-triple gate that asks whether the source document actually supports a triple an LLM extracted from it. A DeBERTa-v3 cross-encoder, with synthetic corruption controls and source-blind ablations, evaluated across WebNLG, DocRED, REBEL and SciERC. The distinction that matters here is faithfulness to a source, not truth in general.
 - **Multilingual inductive entity retrieval.** BGE-M3 with LoRA, reciprocal queries and concept-disjoint splits, built to keep answer exposure out of the evaluation.
 
-Manuscripts in preparation. Nothing submitted or accepted yet — I will update this line when that changes.
+Manuscripts in preparation. Nothing submitted or accepted yet. I will update this line when that changes.
 
 
 ## Stack
 
-**Languages** — Python, C++, TypeScript, JavaScript, SQL
+**Languages:** Python, C++, TypeScript, JavaScript, SQL
 
-**ML** — PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, OpenCV, MediaPipe, ONNX
+**ML:** PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, OpenCV, MediaPipe, ONNX
 
-**Retrieval and local inference** — FAISS, ChromaDB, BM25, SQLite FTS5, llama.cpp, GGUF, Ollama
+**Retrieval and local inference:** FAISS, ChromaDB, BM25, SQLite FTS5, llama.cpp, GGUF, Ollama
 
-**Services and data** — FastAPI, Flask, React, PostgreSQL, SQLite, Docker, pandas, QGIS
+**Services and data:** FastAPI, Flask, React, PostgreSQL, SQLite, Docker, pandas, QGIS
 
 
 ## Selected achievements
 
-- **First place, Green Tag track — BITS APOGEE 2026.** Five-person team.
-- **GSSoC 2026** — top 3.5% of 47,951 contributors.
+- **First place, Green Tag track at BITS APOGEE 2026.** Five-person team.
+- **GSSoC 2026**, top 3.5% of 47,951 contributors.
 - **Deep Learning Specialization** and **Machine Learning Specialization**, DeepLearning.AI. [[1]](https://coursera.org/verify/specialization/WQ6EOXR8U51L) [[2]](https://www.coursera.org/account/accomplishments/specialization/8JFNCYJQ96M7)
 - **Data Science and AI**, IIT Madras. [[Certificate]](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)
 

@@ -17,7 +17,7 @@ name: GitHub profile summary cards
 
 on:
   schedule:
-    # 00:00 UTC daily. Do not use "* */24 * * *" — that fires every minute of hour 0.
+    # 00:00 UTC daily. Do not use "* */24 * * *", which fires every minute of hour 0.
     - cron: "0 0 * * *"
   workflow_dispatch:
 

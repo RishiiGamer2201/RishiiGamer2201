@@ -32,7 +32,7 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 | **[Sherpa](https://github.com/RishiiGamer2201/sherpa)** | Terminal assistant that explains command output and errors using a local GGUF model. | Published to PyPI as [`sherpa-dev`](https://pypi.org/project/sherpa-dev/). No API key, no network after model download. `pip install sherpa-dev` |
 | **[Nyaya Navigator](https://github.com/RishiiGamer2201/Gemma_Hack)** | Offline English/Hindi/Hinglish legal-information navigator. | 6,845 chunks from 30 official law PDFs. BM25 + EmbeddingGemma fused by reciprocal rank, with citation gates and refusal on unsupported claims. |
 | **[PolyAgent CI](https://github.com/RishiiGamer2201/polyagent-ci)** | Orchestrates four coding agents across isolated Git worktrees. | Dependency-aware DAG with cycle detection, topological scheduling, contract review and test-gated merges. |
-| **[Apna Saathi](https://github.com/RishiiGamer2201/apna-saathi)** | Offline Hindi household-assistance assistant for a constrained Jetson board, built on the Suno Sutra retrieval base. | SQLite FTS5 lexical retrieval with a local Qwen model over Ollama. Measured on the target board: 2.70 s median, 3.64 s at p90. |
+| **[Apna Saathi](https://github.com/RishiiGamer2201/apna-saathi)** | Offline Hindi household-assistance assistant for a constrained Jetson board, built on the Suno Sutra retrieval base. One of the four winning projects in the BHASHINI VYOMA Challenge. | SQLite FTS5 lexical retrieval with a local Qwen model over Ollama. Measured on the target board: 2.70 s median, 3.64 s at p90. |
 | **[Jarvis](https://github.com/RishiiGamer2201/gesture-desktop-control)** | Gesture and voice desktop control for cursor, click, scroll and volume. | MediaPipe hand landmarks into a KNN classifier, with a Flask/Socket.IO dashboard. [Demo](https://www.youtube.com/watch?v=thcPBI7ImGQ) |
 
 The rest, including hackathon work and smaller tools, is on [my portfolio](https://portfolio-rishii.vercel.app/#projects).
@@ -81,6 +81,7 @@ Nothing accepted yet; I will update this section when that changes.
 
 ## Selected achievements
 
+- **Winner, BHASHINI VYOMA Challenge 2026.** Apna Saathi was named one of the four winning projects.
 - **First place, Green Tag track at BITS APOGEE 2026.** Five-person team.
 - **Third place, BITCAMP (AIMS-DTU x TinyFish), October 2026.** Built FormSaathi in a two-person team: a voice assistant that fills real online forms in 12 Indian languages, confirms every answer with the user, and stops at payments, logins, OTPs and captchas.
 - **GSSoC 2026**, top 3.5% of 47,951 contributors.

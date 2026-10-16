@@ -19,8 +19,9 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 
 **Currently:**
 
-- A paper under review at ECIR 2027 on multilingual knowledge-graph completion.
-- A draft on why underwater image-quality metrics disagree with people.
+- A paper under review at ECIR 2027.
+- Leading real-world data collection for a computer vision project targeting CVPR 2027.
+- Leading the next version of a material perception benchmark with Dr. Arpan Kusari at UMTRI, University of Michigan.
 - Leading restoration and the embedded Jetson pipeline for team aimslabs in the MaCVi 2027 underwater restoration and segmentation challenge (WACV 2027 workshop).
 
 
@@ -56,21 +57,15 @@ In **GSSoC 2026** I placed **1,662 of 47,951** (top 3.5%), with 2,507 points and
 
 ## Research
 
-At AIMS-DTU, under Prof. Dinesh K. Vishwakarma:
+Details of unpublished work stay private until it is published. This is where I work and what I do.
 
-- **Knowledge-graph completion.** Reproducing TransE and RotatE baselines on FB15k-237 and WN18RR, and reading the evaluation protocol carefully enough to know what the numbers do not say.
-- **Source-conditioned faithfulness.** A per-triple gate that asks whether the source document actually supports a triple an LLM extracted from it. A DeBERTa-v3 cross-encoder, with synthetic corruption controls and source-blind ablations, evaluated across WebNLG, DocRED, REBEL and SciERC. The distinction that matters here is faithfulness to a source, not truth in general.
-- **Multilingual inductive knowledge-graph completion.** A concept-disjoint multilingual benchmark that keeps answer exposure out of the evaluation, and a diagnosis of where a dense BGE-M3 retriever fails once the aggregate score is broken down.
+- **Knowledge graphs and LLMs** at AIMS-DTU, under Prof. Dinesh K. Vishwakarma. Knowledge-graph completion and LLM-built knowledge graphs, starting from reproduced TransE and RotatE baselines on FB15k-237 and WN18RR. One paper from this work is under review at ECIR 2027.
+- **Material perception** with Dr. Arpan Kusari at UMTRI, University of Michigan (remote). Leading the next version of the MatPredict benchmark for material segmentation and inverse rendering.
+- **Physical reasoning in vision.** Leading the real-world data collection for a dataset and benchmark project targeting CVPR 2027.
+- **Underwater image quality.** A paper in preparation with a collaborator.
+- **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Submitted, results pending. Also filed [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25) on the official repository.
 
-With Abhinav Rajput:
-
-- **Stress-testing underwater image-quality metrics.** 73 no-reference quality metrics checked against five human-judgement sources, including a 20-rater paired-choice study I ran. Cheap edits and invisible PGD perturbations fool the standard underwater scores, and almost none of them notice when an AI image editor slowly degrades a photo.
-
-Solo:
-
-- **Learn2Design 2026 (NeurIPS 2026 Competition Track).** An optimizer for gravitational-wave detector design in a differentiable JAX simulator. Five pre-registered experiments showed run-to-run variance dominated every tuning effect, so the final method spends the compute on a batched population of independent starts and tracks the best physically feasible design itself. On development topologies it cut mean loss from 2.460 (best of two single runs) to 1.091. Results pending. Also filed [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25) on the official repository.
-
-One paper is under review at ECIR 2027. The faithfulness and image-quality work is still in preparation. Nothing accepted yet; I will update this line when that changes.
+Nothing accepted yet; I will update this section when that changes.
 
 
 ## Stack
@@ -87,7 +82,7 @@ One paper is under review at ECIR 2027. The faithfulness and image-quality work 
 ## Selected achievements
 
 - **First place, Green Tag track at BITS APOGEE 2026.** Five-person team.
-- **Third place, BITCAMP (AIMS-DTU x TinyFish), October 2026.** Built FormSaathi with Sarthak Tomar: a voice assistant that fills real online forms in 12 Indian languages, confirms every answer with the user, and stops at payments, logins, OTPs and captchas.
+- **Third place, BITCAMP (AIMS-DTU x TinyFish), October 2026.** Built FormSaathi in a two-person team: a voice assistant that fills real online forms in 12 Indian languages, confirms every answer with the user, and stops at payments, logins, OTPs and captchas.
 - **GSSoC 2026**, top 3.5% of 47,951 contributors.
 - **Deep Learning Specialization** and **Machine Learning Specialization**, DeepLearning.AI. [[1]](https://coursera.org/verify/specialization/WQ6EOXR8U51L) [[2]](https://www.coursera.org/account/accomplishments/specialization/8JFNCYJQ96M7)
 - **Data Science and AI**, IIT Madras. [[Certificate]](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)

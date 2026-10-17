@@ -63,7 +63,7 @@ Details of unpublished work stay private until it is published. This is where I 
 - **Material perception** with Dr. Arpan Kusari at UMTRI, University of Michigan (remote). Leading the next version of the MatPredict benchmark for material segmentation and inverse rendering.
 - **Physical reasoning in vision.** Leading the real-world data collection for a dataset and benchmark project targeting CVPR 2027.
 - **Underwater image quality.** A paper in preparation with a collaborator.
-- **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Submitted, results pending. Also filed [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25) on the official repository.
+- **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Submitted, results pending. Also reported a starter-code inconsistency in [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25), acknowledged by the maintainers.
 
 Nothing accepted yet; I will update this section when that changes.
 

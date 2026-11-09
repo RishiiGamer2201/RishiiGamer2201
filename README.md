@@ -19,10 +19,10 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 
 **Currently:**
 
+- First paper accepted: the WVAQ Workshop at WACV 2027, released as [TrustUIQA](https://github.com/TrustUIQA/TrustUIQA).
 - A paper under review at ECIR 2027.
-- Leading real-world data collection for a computer vision project targeting CVPR 2027.
+- Researcher at the [Vision and Interpretability Lab (VAIL)](https://www.vai-lab.org/), working on computer vision research.
 - Leading the next version of a material perception benchmark with Dr. Arpan Kusari at UMTRI, University of Michigan.
-- Leading restoration and the embedded Jetson pipeline for team aimslabs in the MaCVi 2027 underwater restoration and segmentation challenge (WACV 2027 workshop).
 
 
 ## Featured work
@@ -42,7 +42,7 @@ The rest, including hackathon work and smaller tools, is on [my portfolio](https
 
 I spend most of my open-source time in other people's repositories, which is where the review is real.
 
-**35 merged pull requests across 15 repositories. 16 of those were merged by maintainers of projects I do not own.**
+**[42 merged pull requests](https://github.com/search?q=author%3ARishiiGamer2201+is%3Apr+is%3Amerged&type=pullrequests), 27 of them in repositories I do not own.**
 
 | Project | Contribution |
 | --- | --- |
@@ -61,11 +61,12 @@ Details of unpublished work stay private until it is published. This is where I 
 
 - **Knowledge graphs and LLMs** at AIMS-DTU, under Prof. Dinesh K. Vishwakarma. Knowledge-graph completion and LLM-built knowledge graphs, starting from reproduced TransE and RotatE baselines on FB15k-237 and WN18RR. One paper from this work is under review at ECIR 2027.
 - **Material perception** with Dr. Arpan Kusari at UMTRI, University of Michigan (remote). Leading the next version of the MatPredict benchmark for material segmentation and inverse rendering.
-- **Physical reasoning in vision.** Leading the real-world data collection for a dataset and benchmark project targeting CVPR 2027.
-- **Underwater image quality.** A paper in preparation with a collaborator.
-- **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Submitted, results pending. Also reported a starter-code inconsistency in [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25), acknowledged by the maintainers.
+- **Physical reasoning in vision** at VAIL. Leading the real-world data collection for a dataset and benchmark project.
+- **Underwater image quality.** First author of an accepted paper at the WVAQ Workshop at WACV 2027, with Prof. Dinesh K. Vishwakarma. We tested whether 73 no-reference quality metrics agree with human judgments, and released everything as TrustUIQA: [code](https://github.com/TrustUIQA/TrustUIQA) and [data](https://huggingface.co/datasets/TrustUIQA/TrustUIQA).
+- **Underwater restoration on the edge.** Restoration lead and Jetson pipeline owner for the five-person AIMS-DTU team, mentored by Prof. Dinesh K. Vishwakarma, that placed **first overall** of 9 ranked teams in the MaCVi 2027 EURS challenge (WACV 2027 workshop): first in the embedded Jetson AGX Orin track and second in the unconstrained track. Our embedded model does restoration and segmentation in 0.74M parameters and 11.4 GFLOPs at 32 FPS. Code: [Track 1](https://github.com/RishiiGamer2201/eurs-macvi2027-aimslabs-track1), [Track 2](https://github.com/RishiiGamer2201/eurs-macvi2027-aimslabs-track2). Co-author of the challenge overview paper, accepted at the WACV 2027 Workshops.
+- **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Ranked 64 of 110, with a mean score better than the strongest organizer baseline. Also reported a starter-code inconsistency in [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25), acknowledged by the maintainers.
 
-Nothing accepted yet; I will update this section when that changes.
+**Publication:** R. K. Singh, A. Rajput, D. K. Vishwakarma. "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift." WVAQ Workshop at WACV 2027 (accepted).
 
 
 ## Stack
@@ -81,6 +82,7 @@ Nothing accepted yet; I will update this section when that changes.
 
 ## Selected achievements
 
+- **First place overall, MaCVi 2027 EURS challenge** (WACV 2027 workshop), October 2026. First in the embedded track, second in the unconstrained track. Five-person AIMS-DTU team; I led restoration and the Jetson track.
 - **Winner, BHASHINI VYOMA Challenge 2026.** Apna Saathi was named one of the four winning projects.
 - **First place, Green Tag track at BITS APOGEE 2026.** Five-person team.
 - **Third place, BITCAMP (AIMS-DTU x TinyFish), October 2026.** Built FormSaathi in a two-person team: a voice assistant that fills real online forms in 12 Indian languages, confirms every answer with the user, and stops at payments, logins, OTPs and captchas.
@@ -90,23 +92,19 @@ Nothing accepted yet; I will update this section when that changes.
 
 
 <!--
-  Contribution card. Hosted service, verified responding 17 Sep 2026.
-  Do not swap this for github-readme-stats.vercel.app or
-  github-readme-activity-graph.vercel.app: both are offline as of today
-  (DEPLOYMENT_PAUSED and DEPLOYMENT_DISABLED respectively).
-
-  To stop depending on a hosted service at all, add the workflow in
-  .github/workflows/profile-summary-cards.yml, run it once from the Actions
-  tab, then replace the block below with:
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg">
-    <img alt="Summary of my GitHub contributions, languages and activity" src="./profile-summary-card-output/default/0-profile-details.svg" width="100%">
-  </picture>
+  Live cards from GitSkins (gitskins.com), checked responding 9 Nov 2026.
+  Dark theme github-dark, light theme minimal. The hero and stats cards are
+  left out on purpose: they lead with star and follower counts.
 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishiiGamer2201&theme=github_dark">
-  <img alt="Summary of my GitHub contributions, languages and activity" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishiiGamer2201&theme=default" width="100%">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/heatmap?username=RishiiGamer2201&theme=github-dark&style=aura">
+    <img alt="My GitHub contribution activity over the last year" src="https://www.gitskins.com/api/section/heatmap?username=RishiiGamer2201&theme=minimal&style=aura" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stack?username=RishiiGamer2201&theme=github-dark&style=aura">
+    <img alt="Languages across my repositories" src="https://www.gitskins.com/api/section/stack?username=RishiiGamer2201&theme=minimal&style=aura" width="49%">
+  </picture>
+</p>
 
 <p align="center"><em>Build things that matter. Ship things that work.</em></p>

@@ -91,20 +91,4 @@ Details of unpublished work stay private until it is published. This is where I 
 - **Data Science and AI**, IIT Madras. [[Certificate]](https://drive.google.com/file/d/1VwFnCool9CxFYaS2EHMN1GT0KXpJ7vlO/view)
 
 
-<!--
-  Live cards from GitSkins (gitskins.com), checked responding 9 Nov 2026.
-  Dark theme github-dark, light theme minimal. The hero and stats cards are
-  left out on purpose: they lead with star and follower counts.
--->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/heatmap?username=RishiiGamer2201&theme=github-dark&style=aura">
-    <img alt="My GitHub contribution activity over the last year" src="https://www.gitskins.com/api/section/heatmap?username=RishiiGamer2201&theme=minimal&style=aura" width="49%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stack?username=RishiiGamer2201&theme=github-dark&style=aura">
-    <img alt="Languages across my repositories" src="https://www.gitskins.com/api/section/stack?username=RishiiGamer2201&theme=minimal&style=aura" width="49%">
-  </picture>
-</p>
-
 <p align="center"><em>Build things that matter. Ship things that work.</em></p>

@@ -29,6 +29,7 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 
 | Project | What it is | Notable |
 | --- | --- | --- |
+| **[Counterfactual SQL Rewards](https://github.com/RishiiGamer2201/sexsi_hack)** | Pays an RL text-to-SQL agent only if its query is also right on hidden counterfactual copies of the database. Lexsi Labs hackathon, three-person team. | Paid reward hacks fell from 54.1% to 1.9% and paid buggy queries from 29.5% to 16.8%, with 0 of 2,847 correct queries rejected. LoRA SFT + GRPO on Tiny Aya (3.35B) for about $11 of GPU. [Article](https://huggingface.co/spaces/sqlcf-lexsi/counterfactual-sql-article), [demo](https://huggingface.co/spaces/sqlcf-lexsi/counterfactual-sql-demo). |
 | **[Sherpa](https://github.com/RishiiGamer2201/sherpa)** | Terminal assistant that explains command output and errors using a local GGUF model. | Published to PyPI as [`sherpa-dev`](https://pypi.org/project/sherpa-dev/). No API key, no network after model download. `pip install sherpa-dev` |
 | **[Nyaya Navigator](https://github.com/RishiiGamer2201/Gemma_Hack)** | Offline English/Hindi/Hinglish legal-information navigator. | 6,845 chunks from 30 official law PDFs. BM25 + EmbeddingGemma fused by reciprocal rank, with citation gates and refusal on unsupported claims. |
 | **[PolyAgent CI](https://github.com/RishiiGamer2201/polyagent-ci)** | Orchestrates four coding agents across isolated Git worktrees. | Dependency-aware DAG with cycle detection, topological scheduling, contract review and test-gated merges. |
@@ -46,6 +47,7 @@ I spend most of my open-source time in other people's repositories, which is whe
 
 | Project | Contribution |
 | --- | --- |
+| [AgentTune](https://github.com/Lexsi-Labs/AgentTune/issues/11) | Reported that the built-in SQL reward paid a `WHERE 1 = 1` exploit as much as honest SQL. Fixed upstream in [PR #12](https://github.com/Lexsi-Labs/AgentTune/pull/12). |
 | [scikit-bio](https://github.com/scikit-bio/scikit-bio/pull/2556) | Replaced deprecated NumPy `assert_warns` across the test suite. |
 | [scikit-verify](https://github.com/aadya940/scikit-verify/pull/32) | Differential coverage tests for binary ufuncs. |
 | [Heliox-OS](https://github.com/VyomKulshrestha/Heliox-OS/pulls?q=is%3Apr+author%3ARishiiGamer2201) | 10 merged PRs: WebSocket token streaming, action parallelization with dependency analysis, agent capability auto-discovery, rolling context compression for ReAct loops, daemon auto-restart. |

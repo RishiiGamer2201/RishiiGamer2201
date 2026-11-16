@@ -20,7 +20,7 @@ Most of my work sits on one problem: a model that sounds right is not the same a
 **Currently:**
 
 - First paper accepted: the WVAQ Workshop at WACV 2027, released as [TrustUIQA](https://github.com/TrustUIQA/TrustUIQA) ([paper](https://arxiv.org/abs/2611.18429)).
-- A paper under review at ECIR 2027.
+- Under review: two papers at CVPR 2027 (first author on one) and one at ECIR 2027.
 - Researcher at the [Vision and Interpretability Lab (VAIL)](https://www.vai-lab.org/), working on computer vision research.
 - Leading the next version of a material perception benchmark with Dr. Arpan Kusari at UMTRI, University of Michigan.
 
@@ -63,7 +63,8 @@ Details of unpublished work stay private until it is published. This is where I 
 
 - **Knowledge graphs and LLMs** at AIMS-DTU, under Prof. Dinesh K. Vishwakarma. Knowledge-graph completion and LLM-built knowledge graphs, starting from reproduced TransE and RotatE baselines on FB15k-237 and WN18RR. One paper from this work is under review at ECIR 2027.
 - **Material perception** with Dr. Arpan Kusari at UMTRI, University of Michigan (remote). Leading the next version of the MatPredict benchmark for material segmentation and inverse rendering.
-- **Physical reasoning in vision** at VAIL. Leading the real-world data collection for a dataset and benchmark project.
+- **Physical reasoning in vision** at VAIL. Led the real-world data collection for a physics-judge benchmark paper, now under review at CVPR 2027.
+- **Open-vocabulary object detection** at VAIL. First author of a paper under review at CVPR 2027.
 - **Underwater image quality.** First author of an accepted paper at the WVAQ Workshop at WACV 2027, with Prof. Dinesh K. Vishwakarma. We tested whether 73 no-reference quality metrics agree with human judgments, and released everything as TrustUIQA: [paper](https://arxiv.org/abs/2611.18429), [code](https://github.com/TrustUIQA/TrustUIQA) and [data](https://huggingface.co/datasets/TrustUIQA/TrustUIQA).
 - **Underwater restoration on the edge.** Restoration lead and Jetson pipeline owner for the five-person AIMS-DTU team, mentored by Prof. Dinesh K. Vishwakarma, that placed **first overall** of 9 ranked teams in the MaCVi 2027 EURS challenge (WACV 2027 workshop): first in the embedded Jetson AGX Orin track and second in the unconstrained track. Our embedded model does restoration and segmentation in 0.74M parameters and 11.4 GFLOPs at 32 FPS. Code: [Track 1](https://github.com/RishiiGamer2201/eurs-macvi2027-aimslabs-track1), [Track 2](https://github.com/RishiiGamer2201/eurs-macvi2027-aimslabs-track2). Co-author of the challenge overview paper, accepted at the WACV 2027 Workshops.
 - **Learn2Design 2026** (NeurIPS 2026 Competition Track), solo. Gravitational-wave detector design optimization in a differentiable JAX simulator. Ranked 64 of 110, with a mean score better than the strongest organizer baseline. Also reported a starter-code inconsistency in [issue #25](https://github.com/artificial-scientist-lab/Learn2Design-2026/issues/25), acknowledged by the maintainers.

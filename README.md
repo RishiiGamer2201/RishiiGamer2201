@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://portfolio-rishii.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-101B33?style=for-the-badge&logo=firefox&logoColor=2DE2E6" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/rishiikumarsingh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://scholar.google.com/citations?user=DzJRqTcAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
   <a href="mailto:rishiikumarsingh2201@gmail.com"><img src="https://img.shields.io/badge/Email-B4235A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://huggingface.co/LogicPalette"><img src="https://img.shields.io/badge/Hugging%20Face-FF9D00?style=for-the-badge&logo=huggingface&logoColor=111111" alt="Hugging Face" /></a>
   <a href="https://x.com/RishiiSingh2201"><img src="https://img.shields.io/badge/X-111827?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
